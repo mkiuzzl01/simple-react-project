@@ -14,7 +14,7 @@ const Header = () => {
         innovation meets affordability
       </p>
       <div>
-        <button className="px-4 py-2 bg-[#dc7516] rounded-lg ">Resister Now</button>
+        <button className="px-4 py-2 bg-[#dc7516] rounded-2xl hover:text-white hover:bg-[#b46c29] ">Resister Now</button>
       </div>
     </div>
   );

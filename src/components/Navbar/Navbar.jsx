@@ -24,7 +24,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div>
-          <button className="px-4 py-2 rounded-lg bg-[#e3c33f]">Login</button>
+          <button className="px-4 py-2 rounded-2xl bg-[#e3c33f] hover:text-white hover:bg-[#d5b535]">Login</button>
         </div>
       </div>
     </div>
