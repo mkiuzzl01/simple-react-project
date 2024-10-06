@@ -6,11 +6,11 @@ import Products from "./components/Products/Products";
 function App() {
   return (
     <div>
-      <main className="max-w-7xl m-auto">
+      <div className="max-w-7xl m-auto">
      <Navbar></Navbar>
      <Header></Header>
      <Products></Products>
-    </main>
+    </div>
      <Footer></Footer>
     </div>
   );

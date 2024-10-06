@@ -1,9 +1,9 @@
 import React from "react";
-
 const Product_Card = ({ product }) => {
-//   console.log(product);
   return (
-    <div className="p-5 flex justify-center items-center border-2 rounded-lg gap-4">
+    <div
+      className="p-5 flex justify-center items-center border-2 rounded-lg gap-4 hover:shadow-md duration-300 hover:shadow-green-300"
+    >
       <div className="flex items-center justify-center">
         <img className="w-64" src={product?.ProductImage} alt="" />
       </div>
@@ -15,7 +15,7 @@ const Product_Card = ({ product }) => {
           Rating <span>{product?.Ratings}</span>
         </p>
         <div>
-          <button className="btn border-none py-2 px-4 rounded-lg bg-orange-500  border-2">
+          <button className="btn border-none py-2 px-4 hover:bg-green-500 rounded-lg bg-green-300 mt-2 border-2">
             Buy
           </button>
         </div>

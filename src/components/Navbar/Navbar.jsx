@@ -31,7 +31,7 @@ const Navbar = () => {
     };
     window.addEventListener("resize", handleResetSmallMenu);
   }, []);
-  console.log(bgNav);
+//   console.log(bgNav);
 
   return (
     <div className="fixed top-0 left-0 right-0 z-20 max-w-7xl m-auto ">

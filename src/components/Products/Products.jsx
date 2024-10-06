@@ -11,6 +11,7 @@ const Products = () => {
   const [price, setPrice] = useState("");
   const [loading, setLoading] = useState(true);
 
+
   const getData = async () => {
     setLoading(true);
     const data = await fetch("/products.json");
