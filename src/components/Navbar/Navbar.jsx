@@ -50,17 +50,17 @@ const Navbar = () => {
         {/* for large device */}
         <div className="hidden lg:block">
           <ul className="flex space-x-4 cursor-pointer">
-            <li>
-              <a href="/Home"></a>Home
+            <li className="hover:text-green-500">
+              <a href="#Home">Home</a>
             </li>
-            <li>
-              <a href="/About"></a>About
+            <li className="hover:text-green-500">
+              <a href="#About">About</a>
             </li>
-            <li>
-              <a href="/Products"></a>Products
+            <li className="hover:text-green-500">
+              <a href="#Products">Products</a>
             </li>
-            <li>
-              <a href="/Contact"></a>Contact
+            <li className="hover:text-green-500">
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -76,18 +76,18 @@ const Navbar = () => {
           toggle ? "duration-300" : "-translate-x-36 duration-300"
         } bg-[#fff7d1]  w-32 rounded-md ps-3 py-2 ms-2 mt-2 lg:hidden`}
       >
-        <ul className="cursor-pointer">
-          <li>
-            <a href="/Home"></a>Home
+        <ul onClick={() => handleToggle(!toggle)} className="cursor-pointer">
+          <li className="hover:text-green-500">
+            <a href="#Home">Home</a>
           </li>
-          <li>
-            <a href="/About"></a>About
+          <li className="hover:text-green-500">
+            <a href="#About">About</a>
           </li>
-          <li>
-            <a href="/Products"></a>Products
+          <li className="hover:text-green-500">
+            <a href="#Products">Products</a>
           </li>
-          <li>
-            <a href="/Contact"></a>Contact
+          <li className="hover:text-green-500">
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </div>
