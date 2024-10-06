@@ -1,7 +1,7 @@
 import React from "react";
 
 const Product_Card = ({ product }) => {
-  console.log(product);
+//   console.log(product);
   return (
     <div className="p-5 flex justify-center items-center border-2 rounded-lg gap-4">
       <div className="flex items-center justify-center">
