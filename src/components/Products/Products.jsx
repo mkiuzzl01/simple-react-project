@@ -78,8 +78,14 @@ const Products = () => {
       {/* this is section title component */}
       <Section_Title
         heading="Explore our Products and choose"
-        description="Discover the best in technology with our curated selection of top-rated products.
-Each item is chosen for its quality, performance, and innovative features, ensuring you get the best value for your investment."
+        description={
+          <>
+            Discover the best in technology with our curated selection of
+            top-rated products. <br />
+            Each item is chosen for its quality, performance, and innovative
+            features, ensuring you get the best value for your investment.
+          </>
+        }
       ></Section_Title>
 
       {/* ============================================= */}
