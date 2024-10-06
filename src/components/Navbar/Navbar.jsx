@@ -3,12 +3,24 @@ import menu_icon from "../.././assets/menu-alt-2-svgrepo-com.svg";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [bgNav, setBgNav] = useState(false);
 
   const handleToggle = (toggle) => {
     setToggle(toggle);
   };
 
   useEffect(() => {
+    //Scrolling Manage
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        // console.log("Scroll");
+        setBgNav(true);
+      } else {
+        setBgNav(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
 
     //Menu Reset function
     const handleResetSmallMenu = () => {
@@ -17,12 +29,16 @@ const Navbar = () => {
         setToggle(false);
       }
     };
-    return () => window.addEventListener("resize", handleResetSmallMenu);
+    window.addEventListener("resize", handleResetSmallMenu);
   }, []);
 
   return (
     <div className="fixed top-0 left-0 right-0 z-20 max-w-7xl m-auto ">
-      <div className="flex items-center justify-between p-4 bg-green-300 bg-opacity-50">
+      <div
+        className={`flex items-center justify-between p-4 bg-green-300 bg-opacity-50 ${
+          bgNav && "bg-opacity-100"
+        }`}
+      >
         <div className="inline-flex items-center space-x-1 ">
           <div onClick={() => handleToggle(!toggle)}>
             <img src={menu_icon} alt="icon" className="w-7 lg:hidden" />
