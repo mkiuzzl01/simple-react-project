@@ -16,7 +16,7 @@ const Product_Card = ({ product }) => {
         </p>
         <div>
           <button className="btn border-none py-2 px-4 hover:bg-green-500 rounded-lg bg-green-300 mt-2 border-2">
-            Buy
+            Buy Now
           </button>
         </div>
       </div>

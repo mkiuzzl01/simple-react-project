@@ -36,8 +36,8 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-20 max-w-7xl m-auto ">
       <div
-        className={`flex items-center justify-between p-4 bg-green-300 ${
-          bgNav ? "bg-opacity-100" : "bg-opacity-50"
+        className={`flex items-center justify-between p-4 bg-green-200 ${
+          bgNav ? "bg-opacity-100" : "bg-opacity-20"
         }`}
       >
         <div className="inline-flex items-center space-x-1 ">

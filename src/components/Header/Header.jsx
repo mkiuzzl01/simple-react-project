@@ -4,22 +4,22 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 const Header = () => {
   return (
-    <div className="h-[40rem]">
+    <div className="h-[45rem]">
       <Parallax
         pages={1.2}
         style={{
           maxWidth: "1280px",
           scrollBehavior: "smooth",
           scrollbarWidth: "none",
-          maxHeight: "40rem",
+          maxHeight: "45rem",
           backgroundImage: `url(${image})`,
           backgroundSize: "cover",
           backgroundPosition: "center center",
         }}
       >
-        <div className="absolute inset-0 bg-white opacity-70"></div>
+        <div className="absolute inset-0 bg-[#D9D9C4] opacity-60"></div>
 
-        <ParallaxLayer offset={0} speed={0.5} className="pt-40 px-5 md:px-24">
+        <ParallaxLayer offset={0} speed={0.5}  className="pt-72 px-5 md:px-24">
           <div className="relative z-10 space-y-7">
             <div className="space-y-7">
               <h1 className="text-4xl md:text-5xl font-semibold">
