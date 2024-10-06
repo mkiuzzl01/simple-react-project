@@ -42,5 +42,54 @@
     "Ratings": 4.6,
     "CreationDate": "2024-08-12T09:10:00Z",
     "BrandName": "Dell"
+  },
+
+  {
+    "_id": "66bf79aa4a4358d9493f0092",
+    "Id": "P032",
+    "ProductName": "LG C1 55-inch OLED TV",
+    "ProductImage": "https://i.postimg.cc/qqQdJ0d5/image.jpg",
+    "Description": "LG C1 55-inch OLED 4K Smart TV with Dolby Vision and NVIDIA G-Sync support.",
+    "Price": 1499.99,
+    "Category": "Television",
+    "Ratings": 4.9,
+    "CreationDate": "2024-07-15T17:50:00Z",
+    "BrandName": "LG"
+  },
+  {
+    "_id": "66bf79aa4a4358d9493f0078",
+    "Id": "P006",
+    "ProductName": "Apple iPhone 13 Pro Max",
+    "ProductImage": "https://i.postimg.cc/V624fcbW/x-Xt-I3-YLTa-Xa-EZg-Gwhc7-Ztse-GLd-De0h8-J1-ZOy-Cec-M.jpg",
+    "Description": "iPhone 13 Pro Max with A15 Bionic chip, 6.7-inch Super Retina XDR display, and ProMotion technology.",
+    "Price": 1099.99,
+    "Category": "Smartphone",
+    "Ratings": 4.9,
+    "CreationDate": "2024-08-10T14:40:00Z",
+    "BrandName": "Apple"
+  },
+  {
+    "_id": "66bf79aa4a4358d9493f0088",
+    "Id": "P022",
+    "ProductName": "Apple iPad Pro 12.9-inch",
+    "ProductImage": "https://i.postimg.cc/d1bYHnj5/image.jpg",
+    "Description": "Apple iPad Pro 12.9-inch with M1 chip, 5G connectivity, and Liquid Retina XDR display.",
+    "Price": 1099.99,
+    "Category": "Tablet",
+    "Ratings": 4.9,
+    "CreationDate": "2024-07-25T09:20:00Z",
+    "BrandName": "Apple"
+  },
+  {
+    "_id": "66bf79aa4a4358d9493f007a",
+    "Id": "P008",
+    "ProductName": "Sony PlayStation 5",
+    "ProductImage": "https://i.postimg.cc/kgmsgbnV/image.jpg",
+    "Description": "Sony PlayStation 5 with ultra-fast SSD, Ray Tracing technology, and DualSense controller.",
+    "Price": 499.99,
+    "Category": "Gaming Console",
+    "Ratings": 4.9,
+    "CreationDate": "2024-08-08T17:25:00Z",
+    "BrandName": "Sony"
   }
 ]
