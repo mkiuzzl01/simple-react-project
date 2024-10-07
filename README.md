@@ -4,8 +4,9 @@
 This e-commerce platform allows users to find their products using category and price range filters. this site ui user friendly and interactive.
 
 ## Features :
-=> Filter any products by using product category and price range.
-=> cross-screen responsive (e.g., mobile, tablet, desktop)
+* Filter any products by using product category and price range.
+  
+* cross-screen responsive (e.g., mobile, tablet, desktop)
 
 ## Uses Technology:
 => HTML5, CSS3, Javascript, React.js, and React Spring (animation library).
