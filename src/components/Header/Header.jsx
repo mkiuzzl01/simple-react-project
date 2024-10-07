@@ -19,7 +19,7 @@ const Header = () => {
       >
         <div className="absolute inset-0 bg-[#D9D9C4] opacity-60"></div>
 
-        <ParallaxLayer offset={0} speed={0.5}  className="pt-72 px-5 md:px-24">
+        <ParallaxLayer offset={0} speed={0.5}  className="pt-[19rem] px-5 md:px-24">
           <div className="relative z-10 space-y-7">
             <div className="space-y-7">
               <h1 className="text-4xl md:text-5xl font-semibold">
