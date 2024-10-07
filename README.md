@@ -1,7 +1,7 @@
 # Project Name: E-buy
 
 ## Overview : 
-This e-commerce platform allows users to find their products using category and price range filters. this site ui user friendly and interactive.
+This e-commerce platform helps users find their products by using category and price range filters. this site ui user friendly and interactive.
 
 ## Features :
 * Filter any products by using product category and price range.
@@ -9,7 +9,7 @@ This e-commerce platform allows users to find their products using category and 
 * cross-screen responsive (e.g., mobile, tablet, desktop)
 
 ## Uses Technology:
-=> HTML5, CSS3, Javascript, React.js, and React Spring (animation library).
+=> HTML5, CSS3, Taildwind, Javascript, React.js, and React Spring (animation library).
 
 ## You can run the project on your local machine by following the steps:
 
