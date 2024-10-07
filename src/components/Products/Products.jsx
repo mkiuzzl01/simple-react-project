@@ -11,7 +11,6 @@ const Products = () => {
   const [price, setPrice] = useState("");
   const [loading, setLoading] = useState(true);
 
-
   const getData = async () => {
     setLoading(true);
     const data = await fetch("/products.json");
@@ -27,8 +26,6 @@ const Products = () => {
 
   //   conditional filtering function
   const filterProducts = () => {
-    setLoading(true);
-
     let items = products;
     const Price = parseInt(price);
 
@@ -61,10 +58,11 @@ const Products = () => {
       }
       if (Price > 2000) {
         items = items.filter((item) => item?.Price > 2000);
+        setLoading(false);
       }
-      setLoading(false);
     }
     setFilteredItems(items);
+    // setLoading(false);
   };
 
   useEffect(() => {
